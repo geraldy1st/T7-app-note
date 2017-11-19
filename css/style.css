@@ -1,10 +1,3 @@
-/*
-model
-yellow #FFD05B
-red #FF2525
-red dark #B04D5D
-black dark #453246
-*/
 * {
   box-sizing: border-box;
 }
@@ -35,7 +28,7 @@ li{
     z-index: 10;
     background-color: #222;
     background-color: #1d1d1b;
-    background-image: linear-gradient(180deg, #1d1d1b 0%, #FF2525 74%);
+    background-image: linear-gradient(180deg, #222 0%, #777 74%);
 
 }
 .menu{
@@ -44,13 +37,14 @@ li{
 .menu a{
     clear: both;
     text-decoration: none;
-    color: gray;
+    color: #3498db;
     margin: 0 auto;
     line-height: 70px;
     padding: 20px 10px;
 }
 span{
-    color: #54D17A;
+    color: #2980b9;
+    font-weight: bold;
 }
 label{
     margin: 0 40px 0 0;
@@ -154,23 +148,16 @@ h1{
 	position: relative;
 	top: 0;
 }
-#homepage img{
-    width: 100%;
-    height: 100%;
-    margin: 0 auto;
-    text-align: center;
-    transition: .3s;
-}
 
-.logoT7{
+#homepage .logoT7{
     position: absolute;
-    top: 15%;
-    left: 0;
-    transform: scale(1);
-    opacity: .6;
+    top: 50%;
+    left: 50%;
+    opacity: .7;
+    transition: .3s;
+    transform: translate(-50%, -50%);
 }
-.logoT7:hover{
-    transform: scale(1.1);
+#homepage .logoT7:hover{
     opacity: 1;
 }
 .logobg{
