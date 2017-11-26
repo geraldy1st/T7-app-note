@@ -19,7 +19,7 @@ li{
     list-style: none;
 }
 
-.nav{
+.nav1{
     border-bottom: 1px solid #EAEAEB;
     text-align: right;
     height: 70px;
@@ -186,4 +186,7 @@ background: linear-gradient(to bottom, #4b134f, #c94b4b); /* W3C, IE 10+/ Edge, 
     background: #B04D5D;
     min-width: 40%;
 }
-
+/*frames*/
+#frames{
+    background: red;
+}
