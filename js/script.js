@@ -1,7 +1,9 @@
+$(document).ready(function () {
+   
 
 $(function(){
 	$("#akuma").click(function(){
-        $(".akuma").toggle(200);
+        $(".akuma").fadeToggle(200);
 	});
 });
 $(function(){
@@ -9,5 +11,7 @@ $(function(){
 		$(".alisa").toggle(200);
 	});
 });
+    
 $(".option").hide();
 
+});
