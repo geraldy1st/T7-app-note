@@ -58,8 +58,9 @@ html {
 .cover {
       width: 100%;
       height: 150px;
-      background: url("https://image.ibb.co/jbG1LQ/pexels_photo_167276.jpg")
-        center -220px;
+    background-repeat: no-repeat;
+      background: url(../img/tekken7-kaz-hei.jpg) #888 no-repeat center;
+    background-size: 100%;
     }
 .photo {
     margin-top: -45px;

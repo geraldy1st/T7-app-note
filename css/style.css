@@ -18,6 +18,9 @@ ul{
 li{
     list-style: none;
 }
+section{
+    padding-top: 70px;
+}
 
 .nav1{
     border-bottom: 1px solid #EAEAEB;
@@ -25,12 +28,11 @@ li{
     width: 100%;
     height: 70px;
     line-height: 70px;
-    position: relative;
+    position: fixed;
     z-index: 10;
     background-color: #222;
     background-color: #1d1d1b;
     background-image: linear-gradient(180deg, #000 0%, #333 75%);
-
 }
 .menu{
     margin: 0 30px 0 0;
@@ -38,13 +40,13 @@ li{
 .menu a{
     clear: both;
     text-decoration: none;
-    color: #3498db;
+    color: #f39c12;
     margin: 0 auto;
     line-height: 70px;
     padding: 20px 10px;
 }
 span{
-    color: #2980b9;
+    color: #f39c12;
     font-weight: bold;
 }
 label{
@@ -53,6 +55,7 @@ label{
     line-height: 70px;
     display: none;
     width: 26px;
+    color: #fff;
 }
 #toggle{
     display: none;
@@ -95,16 +98,35 @@ label{
     text-align: center;
     font-size: .6em;
     }
+    section #profil{
+        position: fixed;
+        background: #222;
+        width: 100%;
+    }
+    #frames .cmd{
+/*        position: fixed;*/
+    }
 
+/*
     #frames #framesbody td{
         max-width: 47px;
     }
+*/
     tbody{
         background: #F0F2F0;
-
+        margin: 0 15px;
     }
-    #framesbody tr{
-
+    #framesbody .cmd{
+        position: fixed;
+        display: flex;
+        width: 100%;
+        margin-top: 40px;
+    }
+    #framesbody .cmd td{
+        flex: 1;
+    }
+    section td{
+        width: 10%;
     }
     #profil h2{
         text-align: center;
