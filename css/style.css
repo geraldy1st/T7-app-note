@@ -98,7 +98,8 @@ label{
     text-align: center;
     font-size: .6em;
     }
-    section #profil{
+    
+    section #profil1{
         position: fixed;
         background: #222;
         width: 100%;
@@ -127,7 +128,7 @@ label{
     section td{
         width: 10%;
     }
-    #profil h2{
+    #profil1 h2{
         text-align: center;
     }
     #frames ul{
