@@ -105,25 +105,23 @@ label{
         position: fixed;
         background: #222;
         width: 100%;
-    }
-    #frames .cmd{
-/*        position: fixed;*/
+        z-index: 1;
     }
 
-/*
-    #frames #framesbody td{
-        max-width: 47px;
-    }
-*/
     tbody{
         background: #F0F2F0;
+    }
+   
+    #framesbody{
+        position: absolute;
+        top: 70px;
     }
     
     #framesbody .cmd{
         position: fixed;
         display: flex;
         width: 100%;
-        margin-top: 40px;
+        top: 115px;
     }
     #framesbody .cmd td{
         flex: 1;
@@ -132,7 +130,7 @@ label{
         width: 10%;
     }
     #profil1 h2{
-        text-align: center;
+        
     }
     #frames ul{
         display: flex;
