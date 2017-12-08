@@ -88,13 +88,15 @@ label{
         display: block;
     }
 /*    homepage*/
-    
+    #homepage .logoT7{
+        width: 80%;
+    }
     /*frames*/
     #frames{
     background: #f0f2f0;
     color: #222;
-    padding: 0;
-    margin: 0 auto;
+    position: absolute;
+    margin-top: 170px;!important;
     text-align: center;
     font-size: .6em;
     }
@@ -116,6 +118,7 @@ label{
     tbody{
         background: #F0F2F0;
     }
+    
     #framesbody .cmd{
         position: fixed;
         display: flex;
@@ -286,6 +289,9 @@ tbody{
 */
 
 /*training*/
+#training{
+    padding-top: 70px;
+}
 #training img{
     width: 100%;
 }
