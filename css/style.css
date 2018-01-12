@@ -91,6 +91,9 @@ label{
     #homepage .logoT7{
         width: 80%;
     }
+    section{
+    padding-top: 70px;
+}
     /*frames*/
     #frames{
     background: #f0f2f0;
